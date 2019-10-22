@@ -12,9 +12,9 @@ var systemInfo = {
 // Functions
 function post(msg) {
   // Replace with your bot token
-  const token = "Zjg1ZjQ2ZGUtMDQyZC00Njk1LTg4NmQtMWQxMzE2ZjYzZTA3MGJmMjBhZjMtMWU5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+  const token = "ZmY3ZGY4ZjAtNTk5NS00YTM1LWJlYTMtYWExOTdlMDVhYzg1ZGQ5ODUxYzYtYjAz_PF84_962ea6d3-727e-480f-84dc-ed6e4fbcbe7c"
   // replace with a space your bot is part of
-  const roomId = 'Y2lzY29zcGFyazovL3VzL1JPT00vYjNiYWY3ODAtMWIyNy0xMWU5LThhMzEtN2ZkOGM4YjBhNzI1'
+  const roomId = 'Y2lzY29zcGFyazovL3VzL1JPT00vNGEzZmNmYzAtZjRkOC0xMWU5LWIxZWQtYjNkZTU3ZDdmODQx'
   // Post message
   let payload = {"markdown": msg, "roomId": roomId}
   xapi.command( 'HttpClient Post',
